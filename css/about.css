@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+p {
+    color: black;
+}
+.about {
+    background:mediumslateblue;
+    padding: 10px;
+}
+.column{
+    float:left;
+    margin-left: 20px;
+    margin: 10px;
+    width: 20%;
+}
+
+img {
+    height:  75%;
+    width: 75%;
+    border: 5px solid black;
+    background: grey;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    box-shadow: 10px 10px 8px 0 #b3b3b3;
+    background:lightsteelblue;
+    height: 50%px;
+    min-height: 450px;
+    border: 10px solid black;
+}
+.container {
+    margin: 3px;
+}
+.card:hover {
+transform: scale(1.1); /*I saw this on the github "about us" page*/
+}
