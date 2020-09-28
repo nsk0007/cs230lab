@@ -32,10 +32,9 @@ img {
     height: 50%px;
     min-height: 450px;
     border: 10px solid black;
+    text-align: center;
 }
-.container {
-    margin: 3px;
-}
+
 .card:hover {
-transform: scale(1.1); /*I saw this on the github "about us" page*/
+    transform: scale(1.1); /*I saw this on the github "about us" page*/
 }
