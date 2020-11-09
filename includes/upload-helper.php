@@ -8,6 +8,7 @@ if (isset($_POST['prof-submit'])) {
     require 'dbhandler.php';
    
     $uname = $_SESSION['username'];
+    
     $file = $_FILES['prof-image'];
     $file_name = $file['name'];
     $file_tmp_name = $file['tmp_name'];
