@@ -9,8 +9,6 @@ require 'includes/header.php'
             provides a wide range of services for both government and non-government systems. Our team has over 1 year of combined experience
             in software development.
         </p>
-        <button>This does nothing</button>
-        <button>This does nothing, too</button>
     </div>
     <div class="row">
         <div class="column">
